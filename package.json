@@ -1,0 +1,45 @@
+{
+  "name": "pi-draft-stash",
+  "version": "0.1.0",
+  "description": "Stash the pi prompt draft, pasted images included, as plain files. Restore it with alt+s or /stash.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Bradley Mankoff",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradley-mankoff/pi-draft-stash.git"
+  },
+  "homepage": "https://github.com/bradley-mankoff/pi-draft-stash#readme",
+  "bugs": {
+    "url": "https://github.com/bradley-mankoff/pi-draft-stash/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "stash",
+    "draft",
+    "prompt",
+    "images"
+  ],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "files": [
+    "extensions",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.ts\""
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
