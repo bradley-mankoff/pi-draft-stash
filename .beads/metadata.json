@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "pi_draft_stash",
+  "project_id": "f384aa9e-f8c4-424e-8d35-f1018a146e0d"
+}
